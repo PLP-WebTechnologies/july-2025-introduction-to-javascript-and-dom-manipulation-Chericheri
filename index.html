@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JavaScript Fundamentals</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <!-- Part 1: Basic JavaScript -->
+        <section id="part1" class="section">
+            <h2>Part 1: JavaScript Basics</h2>
+            <div class="exercise">
+                <h3>Age Checker</h3>
+                <label for="age">Enter your age:</label>
+                <input type="number" id="age" min="0">
+                <button id="checkAgeBtn">Check</button>
+                <p id="ageResult"></p>
+            </div>
+        </section>
+
+        <!-- Part 2: Functions -->
+        <section id="part2" class="section">
+            <h2>Part 2: JavaScript Functions</h2>
+            <div class="exercise">
+                <h3>Temperature Converter</h3>
+                <label for="temp">Enter temperature:</label>
+                <input type="number" id="temp">
+                <button id="toCelsiusBtn">To Celsius</button>
+                <button id="toFahrenheitBtn">To Fahrenheit</button>
+                <p id="tempResult"></p>
+            </div>
+            
+            <div class="exercise">
+                <h3>String Formatter</h3>
+                <label for="inputString">Enter a string:</label>
+                <input type="text" id="inputString">
+                <button id="formatBtn">Format</button>
+                <p id="stringResult"></p>
+            </div>
+        </section>
+
+        <!-- Part 3: Loops -->
+        <section id="part3" class="section">
+            <h2>Part 3: JavaScript Loops</h2>
+            <div class="exercise">
+                <h3>Multiplication Table</h3>
+                <label for="multNumber">Enter a number:</label>
+                <input type="number" id="multNumber" min="1" value="5">
+                <button id="generateTableBtn">Generate Table</button>
+                <div id="multiplicationTable"></div>
+            </div>
+            
+            <div class="exercise">
+                <h3>FizzBuzz Challenge</h3>
+                <label for="fizzbuzzLimit">Enter limit:</label>
+                <input type="number" id="fizzbuzzLimit" min="1" value="20">
+                <button id="fizzbuzzBtn">Run FizzBuzz</button>
+                <div id="fizzbuzzOutput"></div>
+            </div>
+        </section>
+
+        <!-- Part 4: DOM Manipulation -->
+        <section id="part4" class="section">
+            <h2>Part 4: DOM Manipulation</h2>
+            <div class="exercise">
+                <h3>Theme Switcher</h3>
+                <button id="themeToggleBtn">Toggle Dark Mode</button>
+            </div>
+            
+            <div class="exercise">
+                <h3>Dynamic List</h3>
+                <input type="text" id="listItemInput" placeholder="Enter item">
+                <button id="addItemBtn">Add Item</button>
+                <button id="removeLastBtn">Remove Last</button>
+                <ul id="dynamicList"></ul>
+            </div>
+            
+            <div class="exercise">
+                <h3>Element Creator</h3>
+                <select id="elementType">
+                    <option value="p">Paragraph</option>
+                    <option value="div">Div</option>
+                    <option value="span">Span</option>
+                    <option value="h3">Heading 3</option>
+                </select>
+                <input type="text" id="elementContent" placeholder="Content">
+                <button id="createElementBtn">Create Element</button>
+                <div id="elementContainer"></div>
+            </div>
+        </section>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
